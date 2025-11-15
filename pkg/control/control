@@ -1,0 +1,7 @@
+Package: rpg_utils
+Version: 0.0.1
+Section: base
+Depends: 
+Conflicts: 
+Maintainer: daeganbrown03@gmail.com
+Description: A universal RPG backend
