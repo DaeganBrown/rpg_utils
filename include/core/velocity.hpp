@@ -13,7 +13,6 @@ public:
     double u_z;
 
     LinearVelocity();
-
     LinearVelocity(double x, double y, double z);
 
     ~LinearVelocity();
@@ -37,8 +36,9 @@ class AngularVelocity
     double w_d;
 
     AngularVelocity();
-
     AngularVelocity(double a, double b, double c, double d);
+
+    ~AngularVelocity();
 
     void accelerate(double a, double b, double c, double d);
 };
