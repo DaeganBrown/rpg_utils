@@ -21,13 +21,16 @@ add_library(${PROJECT_NAME} STATIC
 )
 # Public headers live in include/
 target_include_directories(${PROJECT_NAME} PUBLIC
-    ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/include/core
+    ${PROJECT_SOURCE_DIR}/include/meta
+    ${PROJECT_SOURCE_DIR}/tests/headers
 )
 
 # Tests
 add_executable(${PROJECT_NAME}_test
     ${PROJECT_SOURCE_DIR}/tests/test.cpp
 )
+
 
 # Link test executable to the library
 target_link_libraries(${PROJECT_NAME}_test PRIVATE

@@ -10,7 +10,16 @@ I chose C++ because I love C++. Fight me.
 
 # Roadmap
 
-This is reverse of the standard, outer items need to be done first
+## Version Roadmap
+
+- 0.0.1: Created
+- 0.0.2: Position, Rotation, LinearVelocity, AngularVelocity, LinearAcceleration, and AngularAcceleration implemented.
+- 0.0.3: Entity type, as basis for physics objects, 
+- 0.0.4: OnTick method to update Position, Rotation, Velocity, and Acceleration
+- 0.0.4: Simulation object, to run the active entities. 
+- 0.1.0: NewtonianPhysics Implemented, testbench created, allowing for updating movements. 
+
+## Needed Items
 
 - [ ] Three/Two Dimensional Space
     - [ ] Entities
