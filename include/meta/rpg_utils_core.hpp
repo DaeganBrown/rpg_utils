@@ -1,8 +1,7 @@
 #pragma once
 //===============================================================================================//
-//=  This header exists as the master header for the rpg_utils, both as an easy testing header, =//
-//= and I guess for any madman who just wants to include everything. Thats not good practice,   =//
-//= but do as you will.                                                                         =//
+//=  This header exists as the main header for the rpg_utils core spatial utilites, allowing    =//
+//= for everything needed to keep a 3d simulation going. 
 //===============================================================================================//
 
 #include "position.hpp"
