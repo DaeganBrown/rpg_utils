@@ -18,6 +18,7 @@ public:
     ~LinearVelocity();
 
     void accelerate(double x, double y, double z);
+    void set_velocity(double x, double y, double z);
     
 };
 
@@ -41,4 +42,5 @@ class AngularVelocity
     ~AngularVelocity();
 
     void accelerate(double a, double b, double c, double d);
+    void set_velocity(double a, double b, double c, double d);
 };

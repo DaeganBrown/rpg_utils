@@ -17,6 +17,7 @@ class LinearAcceleration
     ~LinearAcceleration();
 
     void jerk(double x, double y, double z);
+    void set_acceleration(double x, double y, double z);
 };
 
 class AngularAcceleration
@@ -39,4 +40,5 @@ class AngularAcceleration
     ~AngularAcceleration();
 
     void jerk(double a, double b, double c, double d);
+    void set_acceleration(double a, double b, double c, double d);
 };
