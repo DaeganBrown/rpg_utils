@@ -1,8 +1,13 @@
 class Position 
 {
 public:
+    /// @brief Meters North
     double x_pos;
+
+    /// @brief Meters East
     double y_pos;
+
+    /// @brief Meters Down
     double z_pos;
     double a_q;
     double b_q;
@@ -30,7 +35,7 @@ public:
 
     /// @brief Standard deconstructor 
     ~Position();
-    
+
     /// @brief Sets position of object to a specified (x,y,z)
     /// @param x Meters North
     /// @param y Meters East
