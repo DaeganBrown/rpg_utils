@@ -1,4 +1,6 @@
-#pragma once
+#ifndef TESTING_OBJECTS_H
+#define TESTING_OBJECTS_H
+
 #include <string>
 
 struct TEST 
@@ -14,3 +16,5 @@ struct TEST
         output = "[WARN][testing_objects.hpp] Uninitialized Output";
     }
 };
+
+#endif

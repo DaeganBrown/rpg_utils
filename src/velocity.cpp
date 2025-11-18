@@ -1,4 +1,3 @@
-#pragma once
 #include "velocity.hpp"
 
 /// @brief Default construct, gives object no linear velocity

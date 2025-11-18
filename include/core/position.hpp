@@ -1,4 +1,5 @@
-#pragma once
+#ifndef POSITION_H
+#define POSITION_H
 class Position 
 {
 public:
@@ -25,3 +26,5 @@ public:
     void set_rotation(double a, double b, double c, double d);
     void move(double x, double y, double z, double a, double b, double c, double d);
 };
+
+#endif

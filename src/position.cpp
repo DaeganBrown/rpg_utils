@@ -1,4 +1,3 @@
-#pragma once
 #include "position.hpp"
 
 /// @brief Creates a position at the origin with no roation

@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef VELOCITY_H
+#define VELOCITY_H
 class LinearVelocity
 {
 public:
@@ -44,3 +44,5 @@ class AngularVelocity
     void accelerate(double a, double b, double c, double d);
     void set_velocity(double a, double b, double c, double d);
 };
+
+#endif

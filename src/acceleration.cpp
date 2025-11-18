@@ -1,4 +1,3 @@
-#pragma once
 #include "acceleration.hpp"
 
 /// @brief Default contstructor, object with no acceleration

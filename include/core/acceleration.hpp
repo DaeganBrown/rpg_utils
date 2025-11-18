@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ACCELERATION_H
+#define ACCELERATION_H
 
 class LinearAcceleration 
 {
@@ -42,3 +43,5 @@ class AngularAcceleration
     void jerk(double a, double b, double c, double d);
     void set_acceleration(double a, double b, double c, double d);
 };
+
+#endif
