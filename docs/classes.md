@@ -16,7 +16,6 @@ The purpose of the position class is to store a three dimensional position in ga
 - `c`: Quaternion 
 - `d`: Quaternion 
 
-
-
 ### Methods
 
+- 
